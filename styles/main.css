@@ -484,7 +484,7 @@ ul {
 
 .block-text {
   flex-basis: calc(93% - 500px);
-  padding-top: 120px
+  padding-top: 120px;
 }
 
 .block-text small {
@@ -1424,7 +1424,7 @@ footer {
   }
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 632.98px) {
   .block-book-demo {
     width: 290px;
     flex-basis: 100%;
@@ -1735,7 +1735,7 @@ left: 50%;
 display: block;  
 }
 
-@media screen and (max-width: 748px) {
+@media screen and (max-width: 767px) {
 .menu__icon{
   display: inline-block;
 }
@@ -1760,11 +1760,16 @@ display: block;
 .menu__links-item:hover{
   text-decoration: none;
   border-bottom: 3px solid #65e496;
-  width: 100px;
+  width: 100px; 
   margin: 0 auto;
   display: block;
   padding: 0;
   text-align: center;
   color: #ffffff;
 }
+}
+@media (max-width: 632.98px) {
+  .block-text{
+    padding-top: 200px
+  }
 }
